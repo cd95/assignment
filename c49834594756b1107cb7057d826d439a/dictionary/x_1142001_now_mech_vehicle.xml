@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="04a8b4594756b1107cb7057d826d437f" label="Vehicle" max_length="40" name="x_1142001_now_mech_vehicle" type="collection">
+        <element label="Brand" mandatory="true" max_length="20" name="brand" type="string"/>
+        <element choice="3" default="Petrol" label="Fuel Type" max_length="40" name="fuel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Diesel" value="2"/>
+                <element inactive_on_update="false" label="EV" value="3"/>
+            </choice>
+        </element>
+        <element display="true" label="Model" mandatory="true" max_length="30" name="model" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Car" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bike" value="2"/>
+            </choice>
+        </element>
+    </element>
+</database>
