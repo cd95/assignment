@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c79b841660d2f510f877650ee774453f" label="Slots Master" max_length="40" name="x_1142001_now_mech_slots_master" type="collection">
+        <element display="true" label="End" mandatory="true" max_length="40" name="end" type="glide_time"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Service Centre" mandatory="true" max_length="32" name="service_centre" reference="x_1142001_now_mech_service_centre" type="reference"/>
+        <element label="Start" mandatory="true" max_length="40" name="start" type="glide_time"/>
+        <element label="Task" mandatory="true" max_length="32" name="task" reference="x_1142001_now_mech_service_task" type="reference"/>
+        <index name="index">
+            <element name="service_centre"/>
+        </index>
+        <index name="index2">
+            <element name="task"/>
+        </index>
+    </element>
+</database>

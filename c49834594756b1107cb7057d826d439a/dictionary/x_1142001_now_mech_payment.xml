@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ce0c9c1a6016f510f877650ee77445a5" label="Payment" max_length="40" name="x_1142001_now_mech_payment" type="collection">
+        <element label="Invoice" mandatory="true" max_length="32" name="invoice" reference="x_1142001_now_mech_invoice" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="Pending" display="true" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Complete" value="Complete"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="invoice"/>
+        </index>
+    </element>
+</database>

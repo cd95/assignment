@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="36cb1c1a6016f510f877650ee77445e3" label="Invoice" max_length="40" name="x_1142001_now_mech_invoice" type="collection">
+        <element label="Amount" max_length="20" name="amount" read_only="true" type="price"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

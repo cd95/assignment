@@ -2,6 +2,6 @@
     <element db_object_id="cb2f74514796b1107cb7057d826d438a" extends="task" label="Service Task" max_length="40" name="x_1142001_now_mech_service_task" type="collection">
         <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
         <element label="Service Centre" max_length="32" name="service_centre" reference="x_1142001_now_mech_service_centre" type="reference"/>
-        <element display="true" label="Service Charge" mandatory="true" max_length="20" name="service_charge" type="price"/>
+        <element label="Service Charge" mandatory="true" max_length="20" name="service_charge" type="price"/>
     </element>
 </database>
