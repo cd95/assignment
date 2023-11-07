@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1142001_now_mech.task_part_user" name="x_1142001_now_mech.task_part_user">c17c185a6016f510f877650ee77445cd</contains>
+        <role display_value="x_1142001_now_mech.service_owner" name="x_1142001_now_mech.service_owner">f62f492260da3910f877650ee7744555</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-07 07:29:23</sys_created_on>
+        <sys_id>d7f33522609e3910f877650ee7744504</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1142001_now_mech.task_part_user.x_1142001_now_mech.service_owner</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_user_role_contains_d7f33522609e3910f877650ee7744504</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-07 07:29:23</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
