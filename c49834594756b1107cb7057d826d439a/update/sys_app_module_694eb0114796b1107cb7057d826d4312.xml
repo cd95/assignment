@@ -18,14 +18,14 @@
         <query/>
         <report/>
         <require_confirmation>false</require_confirmation>
-        <roles/>
+        <roles>x_1142001_now_mech.servicecentre_admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-03 06:22:52</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>694eb0114796b1107cb7057d826d4312</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>All Centres</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_app_module_694eb0114796b1107cb7057d826d4312</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-06 06:22:45</sys_updated_on>
+        <sys_updated_on>2023-11-07 05:04:13</sys_updated_on>
         <timeline_page/>
         <title>All Centres</title>
         <uncancelable>false</uncancelable>

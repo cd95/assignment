@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="x_1142001_now_mech.part_user" name="x_1142001_now_mech.part_user">cf3c145a6016f510f877650ee77445f8</contains>
+        <role display_value="x_1142001_now_mech.application_admin" name="x_1142001_now_mech.application_admin">c7eecd2260da3910f877650ee7744520</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-07 05:27:58</sys_created_on>
+        <sys_id>3838956e60da3910f877650ee7744543</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1142001_now_mech.part_user.x_1142001_now_mech.application_admin</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_user_role_contains_3838956e60da3910f877650ee7744543</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-07 05:27:58</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_user_role_contains_3838956e60da3910f877650ee7744543</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="x_1142001_now_mech.part_user" name="x_1142001_now_mech.part_user">cf3c145a6016f510f877650ee77445f8</contains><role display_value="x_1142001_now_mech.application_admin" name="x_1142001_now_mech.application_admin">c7eecd2260da3910f877650ee7744520</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-11-07 05:27:58</sys_created_on><sys_id>3838956e60da3910f877650ee7744543</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1142001_now_mech.part_user.x_1142001_now_mech.application_admin</sys_name><sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package><sys_policy/><sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope><sys_update_name>sys_user_role_contains_3838956e60da3910f877650ee7744543</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-11-07 05:27:58</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>-674423445</payload_hash>
+        <record_name>x_1142001_now_mech.part_user.x_1142001_now_mech.application_admin</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-07 05:27:58</sys_created_on>
+        <sys_id>3438956e60da3910f877650ee77445b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ba84074340000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-07 05:27:58</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>3838956ee1da39103426c375b66b47b8</update_guid>
+        <update_guid_history>3838956ee1da39103426c375b66b47b8:-674423445</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-07 05:48:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>72ead69925e94330bd71d77542947e40</sys_id>
+        <sys_metadata>3838956e60da3910f877650ee7744543</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1142001_now_mech.part_user.x_1142001_now_mech.application_admin</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_3838956e60da3910f877650ee7744543</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_3838956e60da3910f877650ee7744543">3438956e60da3910f877650ee77445b9</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-07 05:48:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
