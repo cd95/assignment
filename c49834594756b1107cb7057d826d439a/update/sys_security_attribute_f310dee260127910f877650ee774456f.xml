@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_attribute">
+    <sys_security_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition>Group=80dd09ee609a3910f877650ee7744580^ORHasAdminRole=true</condition>
+        <description>Auto Created Attribute - ACL_e22930994756b1107cb7057d826d4327</description>
+        <is_dynamic>true</is_dynamic>
+        <is_localized>true</is_localized>
+        <is_system>false</is_system>
+        <label>ACL_e22930994756b1107cb7057d826d4327</label>
+        <lookup_table/>
+        <lookup_table_column/>
+        <name>x_1142001_now_mech__ACL_e22930994756b1107cb7057d826d4327</name>
+        <script/>
+        <sys_class_name>sys_security_attribute</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-07 09:32:17</sys_created_on>
+        <sys_id>f310dee260127910f877650ee774456f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1142001_now_mech__ACL_e22930994756b1107cb7057d826d4327</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_security_attribute_f310dee260127910f877650ee774456f</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-07 09:32:17</sys_updated_on>
+        <type>compound</type>
+    </sys_security_attribute>
+</record_update>

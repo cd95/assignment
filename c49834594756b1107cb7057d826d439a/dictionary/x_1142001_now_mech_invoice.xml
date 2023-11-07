@@ -2,5 +2,9 @@
     <element db_object_id="36cb1c1a6016f510f877650ee77445e3" label="Invoice" max_length="40" name="x_1142001_now_mech_invoice" type="collection">
         <element label="Amount" max_length="20" name="amount" read_only="true" type="price"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Service Request" mandatory="true" max_length="32" name="service_request" reference="x_1142001_now_mech_centre_service_request" type="reference"/>
+        <index name="index">
+            <element name="service_request"/>
+        </index>
     </element>
 </database>

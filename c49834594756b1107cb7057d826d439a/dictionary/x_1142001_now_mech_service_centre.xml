@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="fafc789d4756b1107cb7057d826d43e4" label="Service Centre" max_length="40" name="x_1142001_now_mech_service_centre" type="collection">
         <element label="Closing Time" mandatory="true" max_length="40" name="closing_time" type="glide_time"/>
-        <element default="True" display="true" label="Is Active" max_length="40" name="is_active" type="boolean"/>
+        <element default="1" display="true" label="Is Active" max_length="40" name="is_active" type="boolean"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Centre Name" mandatory="true" max_length="50" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
