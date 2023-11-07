@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="vehilce_type" label="Vehilce Type" language="en" table="x_1142001_now_mech_centre_service_request">
+    <sys_documentation element="vehilce_type" label="Vehicle Type" language="en" table="x_1142001_now_mech_centre_service_request">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>vehilce_type</element>
             <help/>
             <hint/>
-            <label>Vehilce Type</label>
+            <label>Vehicle Type</label>
             <language>en</language>
             <name>x_1142001_now_mech_centre_service_request</name>
-            <plural>Vehilce Types</plural>
+            <plural>Vehicle Types</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>maint</sys_created_by>
             <sys_created_on>2023-11-06 07:28:26</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Vehilce Type</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Vehicle Type</sys_name>
             <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
             <sys_policy/>
             <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
             <sys_update_name>sys_documentation_x_1142001_now_mech_centre_service_request_vehilce_type_en</sys_update_name>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-06 07:28:26</sys_updated_on>
+            <sys_updated_on>2023-11-07 11:34:11</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
