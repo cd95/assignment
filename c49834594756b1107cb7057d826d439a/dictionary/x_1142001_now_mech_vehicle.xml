@@ -11,7 +11,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" default="Car" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Bike" value="2"/>
+                <element inactive_on_update="false" label="Bike" value="Bike"/>
             </choice>
         </element>
     </element>

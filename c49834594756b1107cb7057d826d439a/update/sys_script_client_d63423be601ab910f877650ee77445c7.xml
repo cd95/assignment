@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>vehilce_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Request On Change Vehicle Type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || isTemplate) {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+
+    var typeField = g_form.getValue('vehilce_type');
+    var ga = new GlideAjax('VehicleMethods');
+    ga.addParam('sysparm_name', 'getVehicleBrandsByType');
+    ga.addParam('sysparm_vehicleType', typeField);
+    ga.getXML(getVehicleBrandsByType);
+}
+
+function getVehicleBrandsByType(response) {
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+    var options = JSON.parse(answer);
+    g_form.clearOptions('vehcile_brand');
+
+    // Iterate through the options and add them to the choice field
+    options.forEach(function(option) {
+        g_form.addOption('vehcile_brand', option.value, option.label);
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-08 10:18:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d63423be601ab910f877650ee77445c7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Request On Change Vehicle Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_script_client_d63423be601ab910f877650ee77445c7</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-08 10:31:56</sys_updated_on>
+        <table>x_1142001_now_mech_centre_service_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
