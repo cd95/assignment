@@ -16,7 +16,6 @@
     }
 
     //Type appropriate comment here, and begin script below
-
     var typeField = g_form.getValue('vehilce_type');
     var ga = new GlideAjax('VehicleMethods');
     ga.addParam('sysparm_name', 'getVehicleBrandsByType');
@@ -27,12 +26,17 @@
 function getVehicleBrandsByType(response) {
     var answer = response.responseXML.documentElement.getAttribute("answer");
     var options = JSON.parse(answer);
+    var brand = g_form.getValue('vehcile_brand');
     g_form.clearOptions('vehcile_brand');
 
     // Iterate through the options and add them to the choice field
     options.forEach(function(option) {
         g_form.addOption('vehcile_brand', option.value, option.label);
     });
+
+	if(!g_form.isNewRecord()){
+		g_form.setValue('vehcile_brand', brand);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>maint</sys_created_by>
@@ -40,7 +44,7 @@ function getVehicleBrandsByType(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d63423be601ab910f877650ee77445c7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Request On Change Vehicle Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
@@ -48,7 +52,7 @@ function getVehicleBrandsByType(response) {
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_script_client_d63423be601ab910f877650ee77445c7</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-08 10:31:56</sys_updated_on>
+        <sys_updated_on>2023-11-08 11:00:47</sys_updated_on>
         <table>x_1142001_now_mech_centre_service_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

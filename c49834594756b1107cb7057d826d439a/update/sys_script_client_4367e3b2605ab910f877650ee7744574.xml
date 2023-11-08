@@ -29,12 +29,16 @@
 function getVehicleModels(response) {
     var answer = response.responseXML.documentElement.getAttribute("answer");
     var options = JSON.parse(answer);
+	var model = g_form.getValue('vehicle_model');
     g_form.clearOptions('vehicle_model');
 
     // Iterate through the options and add them to the choice field
     options.forEach(function(option) {
         g_form.addOption('vehicle_model', option.value, option.label);
     });
+	if(!g_form.isNewRecord()){
+		g_form.setValue('vehicle_model', model);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>maint</sys_created_by>
@@ -42,7 +46,7 @@ function getVehicleModels(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4367e3b2605ab910f877650ee7744574</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Request on change vehicle brand</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
@@ -50,7 +54,7 @@ function getVehicleModels(response) {
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_script_client_4367e3b2605ab910f877650ee7744574</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-08 10:36:14</sys_updated_on>
+        <sys_updated_on>2023-11-08 11:02:08</sys_updated_on>
         <table>x_1142001_now_mech_centre_service_request</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
