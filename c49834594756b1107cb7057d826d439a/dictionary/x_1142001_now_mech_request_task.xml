@@ -3,5 +3,6 @@
         <element display="true" label="Service Request" mandatory="true" max_length="32" name="service_request" reference="x_1142001_now_mech_centre_service_request" type="reference"/>
         <element label="Service Task" mandatory="true" max_length="32" name="service_task" reference="x_1142001_now_mech_service_task" type="reference"/>
         <element label="Slot" mandatory="true" max_length="32" name="slot" reference="x_1142001_now_mech_slots_daily" type="reference"/>
+        <element label="Task Assignee" max_length="32" name="task_assignee" reference="x_1142001_now_mech_user" type="reference"/>
     </element>
 </database>

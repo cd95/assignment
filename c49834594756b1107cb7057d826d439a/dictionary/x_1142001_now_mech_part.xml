@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="762c105a6016f510f877650ee7744596" label="Part" max_length="40" name="x_1142001_now_mech_part" type="collection">
-        <element label="Name" mandatory="true" max_length="20" name="name" type="string"/>
+        <element display="true" label="Name" mandatory="true" max_length="20" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element display="true" label="Price" mandatory="true" max_length="20" name="price" type="price"/>
+        <element label="Price" mandatory="true" max_length="20" name="price" type="price"/>
     </element>
 </database>

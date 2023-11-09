@@ -7,7 +7,7 @@
             <choice/>
         </element>
         <element label="Service Centre" mandatory="true" max_length="32" name="service_centre" reference="x_1142001_now_mech_service_centre" type="reference"/>
-        <element label="Task Slots" mandatory="true" max_length="10000" name="task_slots" reference="x_1142001_now_mech_slots_daily" reference_qual="javascript:&quot;service_centre=&quot; + current.service_centre  +  &quot;^date=&quot; + current.requested_date" type="glide_list" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="Task Slots" mandatory="true" max_length="10000" name="task_slots" reference="x_1142001_now_mech_slots_daily" reference_qual="javascript:&quot;service_centre=&quot; + current.service_centre  +  &quot;^date=&quot; + current.requested_date + &quot;^is_available=&quot; + true" type="glide_list" use_dependent_field="true" use_reference_qualifier="advanced"/>
         <element choice="3" label="Vehcile Brand" mandatory="true" max_length="40" name="vehcile_brand" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Maruti Suzuki" value="Maruti Suzuki"/>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="task_assignee" label="Task Assignee" language="en" table="x_1142001_now_mech_request_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>task_assignee</element>
+            <help/>
+            <hint/>
+            <label>Task Assignee</label>
+            <language>en</language>
+            <name>x_1142001_now_mech_request_task</name>
+            <plural>Task Assignees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-11-09 11:01:40</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Task Assignee</sys_name>
+            <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+            <sys_update_name>sys_documentation_x_1142001_now_mech_request_task_task_assignee_en</sys_update_name>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-11-09 11:01:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
