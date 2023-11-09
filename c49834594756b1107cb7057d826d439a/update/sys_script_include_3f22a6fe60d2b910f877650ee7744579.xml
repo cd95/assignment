@@ -10,18 +10,15 @@
         <script><![CDATA[var VehicleMethods = Class.create();
 VehicleMethods.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     getVehicleTypes: function() {
-        gs.info("Call Received");
         try {
             var columnName = 'type';
-            // var vehicleGlideRecord = new GlideRecord('x_1142001_now_mech_vehicle');
             var agg = new GlideAggregate('x_1142001_now_mech_vehicle');
             agg.addNotNullQuery(columnName);
             agg.addAggregate('GROUPBY', columnName);
             agg.query();
             var uniqueValues = [];
             while (agg.next()) {
-                var value = agg.getValue(columnName)
-                gs.info("value" + agg.getValue(columnName));
+                var value = agg.getValue(columnName);
                 var json = {
                     'value': value,
                     'label': value
@@ -45,8 +42,8 @@ VehicleMethods.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             var columnName = 'brand';
             var result = [];
             while (vehicleGlideRecord.next()) {
-                var value = vehicleGlideRecord.getValue(columnName)
-                gs.info("value" + value);
+                var value = vehicleGlideRecord.getValue(columnName);
+
                 var json = {
                     'value': value,
                     'label': value
@@ -71,7 +68,6 @@ VehicleMethods.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             var result = [];
             while (vehicleGlideRecord.next()) {
                 var value = vehicleGlideRecord.getValue(columnName);
-                gs.info("value" + value);
                 var json = {
                     'value': value,
                     'label': value
@@ -97,8 +93,7 @@ VehicleMethods.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             var columnName = 'fuel_type';
             var result = [];
             while (vehicleGlideRecord.next()) {
-                var value = vehicleGlideRecord.getValue(columnName);
-                gs.info("value" + value);
+                var value = vehicleGlideRecord.getValue(columnName)
                 var json = {
                     'value': value,
                     'label': value
@@ -117,13 +112,13 @@ VehicleMethods.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-11-08 05:35:51</sys_created_on>
         <sys_id>3f22a6fe60d2b910f877650ee7744579</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>VehicleMethods</sys_name>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_script_include_3f22a6fe60d2b910f877650ee7744579</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-08 10:40:15</sys_updated_on>
+        <sys_updated_on>2023-11-09 07:21:18</sys_updated_on>
     </sys_script_include>
 </record_update>

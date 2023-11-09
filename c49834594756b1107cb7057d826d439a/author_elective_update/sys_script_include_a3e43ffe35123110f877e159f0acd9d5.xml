@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1142001_now_mech.Task</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Task</name>
+        <script><![CDATA[var Task = Class.create();
+Task.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'Task'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-08 11:31:49</sys_created_on>
+        <sys_id>a3e43ffe35123110f877e159f0acd9d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_script_include_a3e43ffe35123110f877e159f0acd9d5</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-08 11:31:49</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_a3e43ffe35123110f877e159f0acd9d5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1142001_now_mech.Task&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;Task&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var Task = Class.create();
+Task.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'Task'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-08 11:31:49&lt;/sys_created_on&gt;&lt;sys_id&gt;a3e43ffe35123110f877e159f0acd9d5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Task&lt;/sys_name&gt;&lt;sys_package display_value="Now Mechanic" source="x_1142001_now_mech"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Now Mechanic"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_a3e43ffe35123110f877e159f0acd9d5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-08 11:31:49&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1944507622</payload_hash>
+        <record_name>Task</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-08 11:31:49</sys_created_on>
+        <sys_id>e415fffe35123110f877e159f0acd969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18baeb3ee460000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-08 11:31:49</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>e815fffe38123110753c3c01f605a968</update_guid>
+        <update_guid_history>e815fffe38123110753c3c01f605a968:-1944507622</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-08 11:34:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7198359d6a3f4d2e859e3bc6e94bcf61</sys_id>
+        <sys_metadata>a3e43ffe35123110f877e159f0acd9d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_script_include_a3e43ffe35123110f877e159f0acd9d5</sys_update_name>
+        <sys_update_version display_value="sys_script_include_a3e43ffe35123110f877e159f0acd9d5">e415fffe35123110f877e159f0acd969</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-08 11:34:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
