@@ -21,11 +21,11 @@ function getVehicleTypes(response) {
     var answer = response.responseXML.documentElement.getAttribute("answer");
     var options = JSON.parse(answer);
     try {
-		var type = g_form.getValue('vehilce_type');
+        var type = g_form.getValue('vehilce_type');
 
-		g_form.clearOptions('vehilce_type');
+        g_form.clearOptions('vehilce_type');
 
-		options.forEach(function(option) {
+        options.forEach(function(option) {
             g_form.addOption('vehilce_type', option.value, option.label);
         });
         if (type != '') {
@@ -42,7 +42,7 @@ function getVehicleTypes(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0056a6366016b910f877650ee7744546</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Request On Load</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
@@ -50,7 +50,7 @@ function getVehicleTypes(response) {
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_script_client_0056a6366016b910f877650ee7744546</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-08 11:05:18</sys_updated_on>
+        <sys_updated_on>2023-11-09 08:31:42</sys_updated_on>
         <table>x_1142001_now_mech_centre_service_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

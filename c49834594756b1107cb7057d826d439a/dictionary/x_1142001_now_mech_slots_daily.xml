@@ -2,8 +2,8 @@
     <element db_object_id="c25d049660d2f510f877650ee7744575" label="Slots Daily" max_length="40" name="x_1142001_now_mech_slots_daily" type="collection">
         <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
         <element label="End Time" mandatory="true" max_length="40" name="end_time" type="glide_time"/>
-        <element display="true" label="Is Available" max_length="40" name="is_available" type="boolean"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Is Available" max_length="40" name="is_available" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
         <element label="Service Centre" mandatory="true" max_length="32" name="service_centre" reference="x_1142001_now_mech_service_centre" type="reference"/>
         <element label="Service Task" mandatory="true" max_length="32" name="service_task" reference="x_1142001_now_mech_service_task" type="reference"/>
         <element label="Start Time" mandatory="true" max_length="40" name="start_time" type="glide_time"/>

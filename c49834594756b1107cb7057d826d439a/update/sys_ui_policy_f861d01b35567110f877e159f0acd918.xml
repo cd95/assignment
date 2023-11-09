@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1142001_now_mech_centre_service_request">service_centreISEMPTY^ORrequested_dateISEMPTY^EQ<item endquery="false" field="service_centre" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="requested_date" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+    g_form.setSectionDisplay('tasks', true);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+		g_form.setSectionDisplay('tasks', false);
+}]]></script_true>
+        <set_values/>
+        <short_description>Task field in Request form should be visible only when date and service centre is selected</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-09 08:15:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f861d01b35567110f877e159f0acd918</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Task field in Request form should be visible only when date and service centre is selected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ui_policy_f861d01b35567110f877e159f0acd918</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-09 08:58:57</sys_updated_on>
+        <table>x_1142001_now_mech_centre_service_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
