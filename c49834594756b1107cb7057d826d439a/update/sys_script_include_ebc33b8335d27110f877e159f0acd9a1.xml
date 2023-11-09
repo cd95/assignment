@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1142001_now_mech.serviceTask</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>serviceTask</name>
+        <script><![CDATA[var serviceTask = Class.create();
+serviceTask.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'serviceTask'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 06:05:35</sys_created_on>
+        <sys_id>ebc33b8335d27110f877e159f0acd9a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>serviceTask</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_script_include_ebc33b8335d27110f877e159f0acd9a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 06:05:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
