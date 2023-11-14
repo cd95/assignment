@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-11-07 11:34:46</sys_created_on>
-            <sys_id>792c22e660927910f877650ee7744521</sys_id>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>0235e9a7359eb110f877e159f0acd992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-07 11:34:46</sys_updated_on>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>requested_date</element>
             <position>1</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-11-07 11:34:46</sys_created_on>
-            <sys_id>f92c22e660927910f877650ee7744521</sys_id>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>8635e9a7359eb110f877e159f0acd992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-07 11:34:46</sys_updated_on>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-11-07 11:34:46</sys_created_on>
-            <sys_id>7d2c22e660927910f877650ee7744521</sys_id>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>0a35e9a7359eb110f877e159f0acd992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-07 11:34:46</sys_updated_on>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>requestor</element>
             <position>3</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-11-07 11:34:46</sys_created_on>
-            <sys_id>fd2c22e660927910f877650ee7744521</sys_id>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>8a35e9a7359eb110f877e159f0acd992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-07 11:34:46</sys_updated_on>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,27 @@
             <element>service_centre</element>
             <position>4</position>
             <sys_created_by>maint</sys_created_by>
-            <sys_created_on>2023-11-07 11:34:46</sys_created_on>
-            <sys_id>712c22e660927910f877650ee7744522</sys_id>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>0e35e9a7359eb110f877e159f0acd992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
             <sys_updated_by>maint</sys_updated_by>
-            <sys_updated_on>2023-11-07 11:34:46</sys_updated_on>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_sate</element>
+            <position>5</position>
+            <sys_created_by>maint</sys_created_by>
+            <sys_created_on>2023-11-10 08:58:46</sys_created_on>
+            <sys_id>8e35e9a7359eb110f877e159f0acd992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1142001_now_mech_centre_service_request" sys_domain="global" view="Default view">9d1a6c9e6056f510f877650ee77445a7</sys_ui_section>
+            <sys_updated_by>maint</sys_updated_by>
+            <sys_updated_on>2023-11-10 08:58:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

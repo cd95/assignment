@@ -5,6 +5,8 @@
         <element choice="3" default="Pending" display="true" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Complete" value="Complete"/>
+                <element inactive_on_update="false" label="Failed" value="Failed"/>
+                <element inactive_on_update="false" label="Pending" value="Pending"/>
             </choice>
         </element>
         <index name="index">

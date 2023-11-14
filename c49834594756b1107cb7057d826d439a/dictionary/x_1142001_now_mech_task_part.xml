@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="394c5c5a6016f510f877650ee774454e" label="Task Part" max_length="40" name="x_1142001_now_mech_task_part" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Service Task" mandatory="true" max_length="32" name="service_task" reference="x_1142001_now_mech_service_task" type="reference"/>
+        <element label="Request Task" mandatory="true" max_length="32" name="service_task" reference="x_1142001_now_mech_request_task" type="reference"/>
         <element display="true" label="Spare part" mandatory="true" max_length="32" name="spare_part" reference="x_1142001_now_mech_part" type="reference"/>
         <index name="index">
             <element name="service_task"/>

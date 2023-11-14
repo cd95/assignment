@@ -13,7 +13,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Service Task</column_label>
+        <column_label>Request Task</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1142001_now_mech_service_task">x_1142001_now_mech_service_task</reference>
+        <reference display_value="" name="x_1142001_now_mech_request_task">x_1142001_now_mech_request_task</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,13 +52,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-11-06 06:45:18</sys_created_on>
-        <sys_name>Service Task</sys_name>
+        <sys_name>Request Task</sys_name>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sys_dictionary_x_1142001_now_mech_task_part_service_task</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-06 06:45:54</sys_updated_on>
+        <sys_updated_on>2023-11-13 05:43:34</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

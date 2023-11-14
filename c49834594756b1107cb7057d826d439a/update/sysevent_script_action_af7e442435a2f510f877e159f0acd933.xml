@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_1142001_now_mech.Task Completion</event_name>
+        <name>Task Completion</name>
+        <order>100</order>
+        <script><![CDATA[try {
+    var RequestTasksgliderecord = new GlideRecord('x_1142001_now_mech_request_task');
+
+    RequestTasksgliderecord.addQuery('service_request', event.parm1);
+    RequestTasksgliderecord.query();
+    gs.info('parm1 ' + event.parm1);
+    var totalPrice = 0;
+    while (RequestTasksgliderecord.next()) {
+        // do someting
+        var Taskgr = new GlideRecord('x_1142001_now_mech_service_task')
+        Taskgr.addQuery('sys_id', RequestTasksgliderecord.getValue('service_task'));
+        Taskgr.addQuery('state', 'IN', ['3']);
+        Taskgr.query();
+        if (Taskgr.next()) {
+            gs.info("price of " + RequestTasksgliderecord.getValue('service_task') + " is " + Taskgr.getValue('service_charge'));
+            totalPrice += parseInt(Taskgr.getValue('service_charge'));
+        }
+        var Taskpartgr = new GlideRecord('x_1142001_now_mech_task_part');
+        Taskpartgr.addQuery('service_task', RequestTasksgliderecord.getValue('sys_id'));
+        Taskpartgr.query();
+        while (Taskpartgr.next()) {
+            gs.info("task part " + Taskpartgr.getValue('sys_id'));
+            gs.info("spare_part sys_id " + Taskpartgr.getValue('spare_part'));
+
+            var Partgr = new GlideRecord('x_1142001_now_mech_part');
+            Partgr.addQuery('sys_id', Taskpartgr.getValue('spare_part'));
+            Partgr.query();
+            if (Partgr.next()) {
+                gs.info("part loop sys_id " + Partgr.getValue('sys_id'));
+                gs.info("part price " + Partgr.getValue('price'));
+
+                totalPrice += parseInt(Partgr.getValue('price'));
+            }
+        }
+    }
+
+    gs.info("total price is " + totalPrice);
+
+    var Invoicegr = new GlideRecord('x_1142001_now_mech_invoice');
+
+    Invoicegr.initialize();
+    Invoicegr.amount = totalPrice;
+    Invoicegr.service_request = event.parm1;
+
+    Invoicegr.insert();
+
+    gs.info("inserted record in invoice table");
+
+} catch (error) {
+    gs.error("error in script" + error);
+}]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-13 05:15:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af7e442435a2f510f877e159f0acd933</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Task Completion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sysevent_script_action_af7e442435a2f510f877e159f0acd933</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 02:07:37</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
