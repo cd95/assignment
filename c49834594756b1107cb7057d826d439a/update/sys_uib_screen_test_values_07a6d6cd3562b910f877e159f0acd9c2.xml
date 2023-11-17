@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "table": "x_1142001_now_mech_service_centre",
+    "sysId": "69c700de6092f510f877650ee77445fd",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTabIndex": "",
+    "5865e308432021105571609dc7b8f23b": {
+        "columnLimit": 0,
+        "listMenuConfigurationId": "48c6565ec3013010965e070e9140dd39",
+        "rowLimit": 10,
+        "table": "task"
+    },
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "69c700de6092f510f877650ee77445fd",
+        "inputTable": "x_1142001_now_mech_service_centre"
+    }
+}</macroponent_config>
+        <screen display_value="Default">87a6d6cd3562b910f877e159f0acd9bf</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 04:25:43</sys_created_on>
+        <sys_id>07a6d6cd3562b910f877e159f0acd9c2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_07a6d6cd3562b910f877e159f0acd9c2</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 06:45:41</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 02:09:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2587358935ee7910f877e159f0acd9cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>m2m_app_config_theme_2587358935ee7910f877e159f0acd9cd</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 02:09:38</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="Now Mech Workspace">6547fd4935ee7910f877e159f0acd98d</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>m2m_app_config_theme_2587358935ee7910f877e159f0acd9cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-11-15 02:09:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2587358935ee7910f877e159f0acd9cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package><sys_policy/><sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope><sys_update_name>m2m_app_config_theme_2587358935ee7910f877e159f0acd9cd</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-11-15 02:09:38</sys_updated_on><theme/><ux_app_configuration display_value="Now Mech Workspace">6547fd4935ee7910f877e159f0acd98d</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>396366151</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 02:09:38</sys_created_on>
+        <sys_id>e587358935ee7910f877e159f0acd9cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd0bdbf780000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 02:09:38</sys_updated_on>
+        <type>UX App Theme</type>
+        <update_guid>a987358955ee7910f626dfa93a80b5ce</update_guid>
+        <update_guid_history>a987358955ee7910f626dfa93a80b5ce:396366151</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">92f95ac535a2b910f877e159f0acd98b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 04:40:09</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>0c10ed84bbb9490088a2b3f270133040</sys_id>
+        <sys_metadata>2587358935ee7910f877e159f0acd9cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_2587358935ee7910f877e159f0acd9cd</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_2587358935ee7910f877e159f0acd9cd">e587358935ee7910f877e159f0acd9cf</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 04:40:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

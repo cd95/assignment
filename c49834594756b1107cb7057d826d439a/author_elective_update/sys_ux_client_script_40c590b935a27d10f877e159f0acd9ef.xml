@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">8ad952c535a2b910f877e159f0acd9ca</macroponent>
+        <name>single_score_2/dataSources</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	var data = [
+                {
+                    "isDatabaseView": false,
+                    "allowRealTime": true,
+                    "sourceType": "table",
+                    "label": {
+                        "message": "LABEL OF YOUR DV"
+                    },
+                    "tableOrViewName": "x_1142001_now_mech_service_centre",
+                    // "filterQuery": "YOUR_FILTER"+api.state.DROPDOWN_VALUE, //pass the dropdown value dynamically  
+                    "id": "single_score_2"
+                }
+            ];
+	return data;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-17 03:08:28</sys_created_on>
+        <sys_id>40c590b935a27d10f877e159f0acd9ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>single_score_2/dataSources</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_client_script_40c590b935a27d10f877e159f0acd9ef</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-17 03:08:28</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_40c590b935a27d10f877e159f0acd9ef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;8ad952c535a2b910f877e159f0acd9ca&lt;/macroponent&gt;&lt;name&gt;single_score_2/dataSources&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	var data = [
+                {
+                    "isDatabaseView": false,
+                    "allowRealTime": true,
+                    "sourceType": "table",
+                    "label": {
+                        "message": "LABEL OF YOUR DV"
+                    },
+                    "tableOrViewName": "x_1142001_now_mech_service_centre",
+                    // "filterQuery": "YOUR_FILTER"+api.state.DROPDOWN_VALUE, //pass the dropdown value dynamically  
+                    "id": "single_score_2"
+                }
+            ];
+	return data;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-17 03:08:28&lt;/sys_created_on&gt;&lt;sys_id&gt;40c590b935a27d10f877e159f0acd9ef&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;single_score_2/dataSources&lt;/sys_name&gt;&lt;sys_package display_value="Now Mechanic" source="x_1142001_now_mech"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Now Mechanic"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_40c590b935a27d10f877e159f0acd9ef&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-17 03:08:28&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-349249566</payload_hash>
+        <record_name>single_score_2/dataSources</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-17 03:08:28</sys_created_on>
+        <sys_id>4728dc7d35a27d10f877e159f0acd9bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bdb4057480000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-17 03:08:28</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>4b28dc7dc2a27d1095c141eee96d39bb</update_guid>
+        <update_guid_history>4b28dc7dc2a27d1095c141eee96d39bb:-349249566</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-17 03:15:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>43370000a08f40dcaf96ffeb9b230f71</sys_id>
+        <sys_metadata>40c590b935a27d10f877e159f0acd9ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>single_score_2/dataSources</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_40c590b935a27d10f877e159f0acd9ef</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_40c590b935a27d10f877e159f0acd9ef">4728dc7d35a27d10f877e159f0acd9bc</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-17 03:15:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

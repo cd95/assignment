@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_toolbar</name>
+        <page display_value="Now Mechanic Workspace">4de0d1b035aa3910f877e159f0acd9bb</page>
+        <required_translations>[ {
+  "message" : "Home",
+  "comment" : ""
+}, {
+  "message" : "List",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 06:36:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>31eaa170352e3910f877e159f0acd953</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_page_property_31eaa170352e3910f877e159f0acd953</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 08:02:37</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1142001_now_mech.4de0d1b035aa3910f877e159f0acd9bb.root.chrome_toolbar</unique_name>
+        <value>[{"id":"home","label":{"translatable":true,"message":"Home"},"icon":"home-outline","routeInfo":{"route":"home"},"group":"top","badge":{},"presence":{},"availability":{},"order":100},{"id":"list","label":{"translatable":true,"message":"List"},"icon":"abc-outline","routeInfo":{"route":"list"},"group":"top","badge":{},"presence":{},"availability":{},"order":100}]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=31eaa170352e3910f877e159f0acd953"/>
+</record_update>

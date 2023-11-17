@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Service Centre Admin">fcdb4df8356a3910f877e159f0acd962</macroponent>
+        <name>Redirect to dashboard list</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api}) {
+    api.emit('SCREEN_STATUS_CHANGED', {status: 'closed'});
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'all-dashboards',
+        title: 'All Dashboards',
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 04:20:14</sys_created_on>
+        <sys_id>0ddb4df8356a3910f877e159f0acd96b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Redirect to dashboard list</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_client_script_0ddb4df8356a3910f877e159f0acd96b</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 04:20:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_0ddb4df8356a3910f877e159f0acd96b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Service Centre Admin"&gt;fcdb4df8356a3910f877e159f0acd962&lt;/macroponent&gt;&lt;name&gt;Redirect to dashboard list&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api}) {
+    api.emit('SCREEN_STATUS_CHANGED', {status: 'closed'});
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'all-dashboards',
+        title: 'All Dashboards',
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-14 04:20:14&lt;/sys_created_on&gt;&lt;sys_id&gt;0ddb4df8356a3910f877e159f0acd96b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Redirect to dashboard list&lt;/sys_name&gt;&lt;sys_package display_value="Now Mechanic" source="x_1142001_now_mech"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Now Mechanic"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0ddb4df8356a3910f877e159f0acd96b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-14 04:20:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>167497044</payload_hash>
+        <record_name>Redirect to dashboard list</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 04:20:14</sys_created_on>
+        <sys_id>85db4df8356a3910f877e159f0acd916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bcc0ef7a30000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 04:20:14</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>8ddb4df8d26a39109d7719fd94a60915</update_guid>
+        <update_guid_history>8ddb4df8d26a39109d7719fd94a60915:167497044,0ddb4df8916a3910448d0e40b2f9246c:-631017142</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 04:21:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>90ecbeeb90684f619fd16bcd3c8048e1</sys_id>
+        <sys_metadata>0ddb4df8356a3910f877e159f0acd96b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Redirect to dashboard list</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0ddb4df8356a3910f877e159f0acd96b</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0ddb4df8356a3910f877e159f0acd96b">85db4df8356a3910f877e159f0acd916</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 04:21:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

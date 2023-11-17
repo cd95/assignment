@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">8ad952c535a2b910f877e159f0acd9ca</macroponent>
+        <name>dropdown_1/items</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({
+    api,
+    helpers
+}) {
+    // var jsonObj = api.data.aggregation_query_1.output;
+    // var numOfLoc = jsonObj.data.GlideAggregate_Query.length;
+    // var jsonVar = "[";
+    // for (var i = 0; i < numOfLoc; i++) {
+    //     jsonVar = jsonVar + '{"id":"' +
+    //         jsonObj.data.GlideAggregate_Query[i].groupBy[0].value + '","label":"' +
+    //         jsonObj.data.GlideAggregate_Query[i].groupBy[0].displayValue + '"}';
+    //     if (i < (numOfLoc - 1)) {
+    //         jsonVar = jsonVar + ",";
+    //     }
+    // }
+    // jsonVar = jsonVar + ']';
+    // return jsonVar;
+
+    var input = api.data.service_centres.results;
+    var length = input.length;
+
+    var result = "[";
+    var initialData = '{"id":"All","label":"All Centres"},';
+    result += initialData;
+    for (var i = 0; i < length; i++) {
+        result = result + '{"id":"' + input[i]._row_data.uniqueValue + '","label":"' +
+            input[i]._row_data.displayValue + '"}';
+
+        if (i < (length - 1)) {
+            result = result + ",";
+        }
+    }
+    result = result + ']';
+    return result;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-17 02:38:51</sys_created_on>
+        <sys_id>7d150c7135627d10f877e159f0acd9a8</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>dropdown_1/items</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_client_script_7d150c7135627d10f877e159f0acd9a8</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-17 03:37:06</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Now Mechanic">d43285bc352a3910f877e159f0acd931</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Application Admin</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>application-admin</route_type>
+        <screen_type display_value="Application Admin">91a2c530356a3910f877e159f0acd94d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 03:40:08</sys_created_on>
+        <sys_id>eda2c530356a3910f877e159f0acd94f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Admin</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_app_route_eda2c530356a3910f877e159f0acd94f</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 03:40:08</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=eda2c530356a3910f877e159f0acd94f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_app_route_eda2c530356a3910f877e159f0acd94f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Now Mechanic">d43285bc352a3910f877e159f0acd931</app_config><description/><extension_point/><fields/><icon/><name>Application Admin</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>application-admin</route_type><screen_type display_value="Application Admin">91a2c530356a3910f877e159f0acd94d</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-11-14 03:40:08</sys_created_on><sys_id>eda2c530356a3910f877e159f0acd94f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Application Admin</sys_name><sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package><sys_policy/><sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope><sys_update_name>sys_ux_app_route_eda2c530356a3910f877e159f0acd94f</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-11-14 03:40:08</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=eda2c530356a3910f877e159f0acd94f"/></record_update>]]></payload>
+        <payload_hash>-1615806341</payload_hash>
+        <record_name>Application Admin</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 03:40:08</sys_created_on>
+        <sys_id>29a2c530356a3910f877e159f0acd952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bcbea3e770000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 03:40:08</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>e9a2c5302b6a3910a815702256675051</update_guid>
+        <update_guid_history>e9a2c5302b6a3910a815702256675051:-1615806341</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 03:40:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>580c9465ec9a4e82b99cc3ba2026dbf9</sys_id>
+        <sys_metadata>eda2c530356a3910f877e159f0acd94f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Admin</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_eda2c530356a3910f877e159f0acd94f</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_eda2c530356a3910f877e159f0acd94f">29a2c530356a3910f877e159f0acd952</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 03:40:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

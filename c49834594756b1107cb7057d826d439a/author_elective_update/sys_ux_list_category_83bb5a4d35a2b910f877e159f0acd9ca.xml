@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Now Mechanic Application Admin">debb25f0352e3910f877e159f0acd91a</configuration>
+        <description/>
+        <order>400</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 04:48:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83bb5a4d35a2b910f877e159f0acd9ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_list_category_83bb5a4d35a2b910f877e159f0acd9ca</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 07:13:31</sys_updated_on>
+        <title>Request Tasks</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_list_category_83bb5a4d35a2b910f877e159f0acd9ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="Now Mechanic Application Admin">debb25f0352e3910f877e159f0acd91a</configuration><description/><order>400</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>maint</sys_created_by><sys_created_on>2023-11-15 04:48:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>83bb5a4d35a2b910f877e159f0acd9ca</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request Tasks</sys_name><sys_overrides/><sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package><sys_policy/><sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope><sys_update_name>sys_ux_list_category_83bb5a4d35a2b910f877e159f0acd9ca</sys_update_name><sys_updated_by>maint</sys_updated_by><sys_updated_on>2023-11-15 07:13:31</sys_updated_on><title>Request Tasks</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>-1196255270</payload_hash>
+        <record_name>Request Tasks</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 07:13:31</sys_created_on>
+        <sys_id>091dbec535a6b910f877e159f0acd998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd1d3f61d0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 07:13:31</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>cd1dbec5bda6b91080814b6f14810797</update_guid>
+        <update_guid_history>cd1dbec5bda6b91080814b6f14810797:-1196255270,77cb5a4ddea2b9103761af0cbbd52e6e:-372444455</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 07:22:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>1326f7cb0ed243a08df78d9e4fe58979</sys_id>
+        <sys_metadata>83bb5a4d35a2b910f877e159f0acd9ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Tasks</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_83bb5a4d35a2b910f877e159f0acd9ca</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_83bb5a4d35a2b910f877e159f0acd9ca">091dbec535a6b910f877e159f0acd998</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 07:22:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

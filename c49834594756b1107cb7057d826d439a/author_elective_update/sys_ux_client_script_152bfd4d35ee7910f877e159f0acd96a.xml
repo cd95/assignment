@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">5867718935ee7910f877e159f0acd9e3</macroponent>
+        <name>Finish navigation for route parent tables</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+const trueUpTableInfo = api.data.resolve_route_parent_tables.output; 
+    const payload = api.state.navigationPayload; 
+    let newPayload = payload; 
+    if(trueUpTableInfo && payload) { 
+        const {table, sysId, title} = trueUpTableInfo; 
+        newPayload = {...payload, fields: {...payload.fields, table, sysId}, title}; 
+    } 
+    api.emit('NAV_ITEM_SELECTED', newPayload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 02:43:28</sys_created_on>
+        <sys_id>152bfd4d35ee7910f877e159f0acd96a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Finish navigation for route parent tables</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_client_script_152bfd4d35ee7910f877e159f0acd96a</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 02:43:28</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</application>
+        <file_path/>
+        <instance_id>086146ac901231106565c68456376f6a</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_client_script_152bfd4d35ee7910f877e159f0acd96a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;5867718935ee7910f877e159f0acd9e3&lt;/macroponent&gt;&lt;name&gt;Finish navigation for route parent tables&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[
+    
+]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+const trueUpTableInfo = api.data.resolve_route_parent_tables.output; 
+    const payload = api.state.navigationPayload; 
+    let newPayload = payload; 
+    if(trueUpTableInfo &amp;&amp; payload) { 
+        const {table, sysId, title} = trueUpTableInfo; 
+        newPayload = {...payload, fields: {...payload.fields, table, sysId}, title}; 
+    } 
+    api.emit('NAV_ITEM_SELECTED', newPayload);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;maint&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-15 02:43:28&lt;/sys_created_on&gt;&lt;sys_id&gt;152bfd4d35ee7910f877e159f0acd96a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Finish navigation for route parent tables&lt;/sys_name&gt;&lt;sys_package display_value="Now Mechanic" source="x_1142001_now_mech"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Now Mechanic"&gt;c49834594756b1107cb7057d826d439a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_152bfd4d35ee7910f877e159f0acd96a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;maint&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-15 02:43:28&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1609578801</payload_hash>
+        <record_name>Finish navigation for route parent tables</record_name>
+        <reverted_from/>
+        <source>ddb488526052f510f877650ee7744501</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 02:43:28</sys_created_on>
+        <sys_id>554f39c13522b910f877e159f0acd9d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18bd0dcbb9b0000001</sys_recorded_at>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 02:43:28</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>594f39c1c422b910d415d1458de2cfd7</update_guid>
+        <update_guid_history>594f39c1c422b910d415d1458de2cfd7:-1609578801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 04:38:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>6c1b9127024c44a89a44533953a6b859</sys_id>
+        <sys_metadata>152bfd4d35ee7910f877e159f0acd96a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finish navigation for route parent tables</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_scope_delete display_value="">26feb54fd7e643d88a55a9f632182a10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_152bfd4d35ee7910f877e159f0acd96a</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_152bfd4d35ee7910f877e159f0acd96a">554f39c13522b910f877e159f0acd9d8</sys_update_version>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 04:38:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_dynamic_route_config">
+    <sys_ux_dynamic_route_config action="INSERT_OR_UPDATE">
+        <description/>
+        <name>Now Mechanic Workspace</name>
+        <sys_class_name>sys_ux_dynamic_route_config</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-15 02:22:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca5a794d35ee7910f877e159f0acd978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Now Mechanic Workspace</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_dynamic_route_config_ca5a794d35ee7910f877e159f0acd978</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-15 02:22:07</sys_updated_on>
+    </sys_ux_dynamic_route_config>
+</record_update>

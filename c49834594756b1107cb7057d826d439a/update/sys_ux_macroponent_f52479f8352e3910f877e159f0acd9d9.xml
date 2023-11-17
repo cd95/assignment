@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "07b0bb09419d26f0af681796bc548f19",
+            "type": "MACROPONENT"
+        },
+        "elementId": "resizable_panes_1",
+        "elementLabel": "Resizable panes 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "overrides": {
+            "composition": [
+                {
+                    "definition": {
+                        "id": "d5119191a4d27b765b12d0b563e00ee6",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "list_menu_1",
+                    "elementLabel": "List menu 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "columns": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "conditions": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "configurationId": {
+                            "type": "JSON_LITERAL",
+                            "value": "debb25f0352e3910f877e159f0acd91a"
+                        },
+                        "error": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "groupByField": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "hideCellFilter": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideCheckboxHover": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnFiltering": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnGrouping": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnResizing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnSorting": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideDragAndDrop": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideEmptyStateImage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideFirstPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHeader": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightedValues": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideInlineEditing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLastPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLastRefreshedText": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLinks": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideListActions": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideListCreation": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideMenuButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideNextPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideOptionToSaveAs": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePages": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePagination": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelAdvanced": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelConditionDelete": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelFooter": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelRestore": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePersonalization": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePreviousPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideQuickEdit": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRecordCountBadge": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideReferenceLinks": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRefreshButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowCount": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowSelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowsPerPageSelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideSelectAll": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideSharingButton": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "hideTabs": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "highlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "listId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "listMenuCrud": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "listMenuOpen": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "maxCharacters": {
+                            "type": "JSON_LITERAL",
+                            "value": 0
+                        },
+                        "overrideWordWrapUserPref": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "selectedListId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "table": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "targetTable": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "tiny": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "title": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": ""
+                            }
+                        },
+                        "view": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "wordWrap": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        }
+                    },
+                    "slot": "left",
+                    "styles": null
+                },
+                {
+                    "definition": {
+                        "id": "66ee7d86e81f696c9f9be19d8424cc0d",
+                        "type": "MACROPONENT"
+                    },
+                    "elementId": "list_1",
+                    "elementLabel": "List 1",
+                    "eventMappings": [
+                        
+                    ],
+                    "isHidden": {
+                        "type": "JSON_LITERAL",
+                        "value": null
+                    },
+                    "preset": null,
+                    "propertyValues": {
+                        "actionConfigId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "allRecordsSelected": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "columns": null,
+                        "daClientActionContract": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "error": {
+                            "type": "JSON_LITERAL",
+                            "value": {}
+                        },
+                        "exceptedRecords": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "fixedQuery": null,
+                        "groupByField": null,
+                        "headerSize": {
+                            "type": "JSON_LITERAL",
+                            "value": "md"
+                        },
+                        "headingLevel": {
+                            "type": "JSON_LITERAL",
+                            "value": 1
+                        },
+                        "hideCellFilter": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideCheckboxHover": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnFiltering": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnGrouping": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnReorder": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnResizing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideColumnSorting": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideDeclarativeActions": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideDotwalk": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideDragDrop": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "hideEmptyStateImage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideFilterPanel": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideFirstPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHeader": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideHighlightedValues": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideInlineEditing": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLastPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLastRefreshedText": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLimitSelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideLinks": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideListSharing": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "hideMenuButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideNextPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideOptionToSaveAs": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePages": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePagination": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelAdvanced": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelConditionDelete": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelFooter": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePanelRestore": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePersonalization": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hidePreviousPage": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideQuickEdit": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRange": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRefreshButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowCount": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideRowSelector": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideSelectAll": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideTitle": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideTitleRowCount": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "hideUnnecessaryRowSelectors": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "highlightContent": {
+                            "type": "JSON_LITERAL",
+                            "value": {
+                                "color": "",
+                                "patterns": [
+                                    
+                                ]
+                            }
+                        },
+                        "highlightedValueConfigId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "isRefList": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "limit": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "listMenuOpen": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "listTitle": {
+                            "type": "TRANSLATION_LITERAL",
+                            "value": {
+                                "code": null,
+                                "comment": "",
+                                "message": "All Active Tasks"
+                            }
+                        },
+                        "maxCharLimit": {
+                            "type": "JSON_LITERAL",
+                            "value": 4000
+                        },
+                        "maxColumns": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "menuSelection": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "nrlLandmark": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
+                        "overrideWordWrapUserPref": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "page": {
+                            "type": "JSON_LITERAL",
+                            "value": 1
+                        },
+                        "query": null,
+                        "recordSelectedQuery": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "recordSelectedSysId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "recordSelectedTable": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "recordSelectedView": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "refreshRequested": {
+                            "type": "JSON_LITERAL",
+                            "value": null
+                        },
+                        "selectedListId": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "selectedRecords": {
+                            "type": "JSON_LITERAL",
+                            "value": [
+                                
+                            ]
+                        },
+                        "table": {
+                            "binding": {
+                                "address": [
+                                    "list_navigation_information_1",
+                                    "listMenuData",
+                                    "table"
+                                ]
+                            },
+                            "type": "DATA_OUTPUT_BINDING"
+                        },
+                        "tiny": {
+                            "type": "JSON_LITERAL",
+                            "value": ""
+                        },
+                        "view": {
+                            "type": "JSON_LITERAL",
+                            "value": "Default"
+                        },
+                        "wordWrap": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        }
+                    },
+                    "slot": "right",
+                    "styles": null
+                }
+            ]
+        },
+        "propertyValues": {
+            "actionBar": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "actionBarConfig": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "leftIcon": "record-activity-details-fill",
+                    "leftTooltip": "Display left pane only",
+                    "middleIcon": "record-activity-stream-outline",
+                    "middleTooltip": "Display both panes",
+                    "rightIcon": "record-activity-outline",
+                    "rightTooltip": "Display right pane only"
+                }
+            },
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "bottomPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Bottom pane"
+                }
+            },
+            "bottomPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            },
+            "defaultDisplayedPane": {
+                "type": "JSON_LITERAL",
+                "value": "both"
+            },
+            "defaultDividerPosition": {
+                "type": "JSON_LITERAL",
+                "value": 50
+            },
+            "disabled": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "displayDividerButton": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "dividerAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Resizable panes divider"
+                }
+            },
+            "dividerButtonConfig": {
+                "type": "JSON_LITERAL",
+                "value": {
+                    "buttonProps": {
+                        "icon": "chevron-left-outline"
+                    },
+                    "position": "top"
+                }
+            },
+            "dividerHandleTooltip": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Resizable panes divider handle"
+                }
+            },
+            "dividerStyles": {
+                "type": "JSON_LITERAL",
+                "value": {}
+            },
+            "leftPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Left pane"
+                }
+            },
+            "leftPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            },
+            "panesPosition": {
+                "type": "JSON_LITERAL",
+                "value": "left-right"
+            },
+            "rightPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Right pane"
+                }
+            },
+            "rightPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            },
+            "topPaneAriaLabel": {
+                "type": "TRANSLATION_LITERAL",
+                "value": {
+                    "code": null,
+                    "comment": "",
+                    "message": "Top pane"
+                }
+            },
+            "topPaneConstraints": {
+                "type": "JSON_LITERAL",
+                "value": "{\"minRatio\": 20, \"minPixels\": 100}"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "e56aae0873231010a0a79329faf6a768",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "list_navigation_information_1",
+        "elementLabel": "List Navigation Information 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "applicationId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "listUrlId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "tinyUrlId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "resizable_panes_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    
+]</props>
+        <required_translations>[ {
+  "message" : "All Active Tasks",
+  "comment" : ""
+}, {
+  "message" : "Bottom pane",
+  "comment" : ""
+}, {
+  "message" : "Left pane",
+  "comment" : ""
+}, {
+  "message" : "Resizable panes divider",
+  "comment" : ""
+}, {
+  "message" : "Resizable panes divider handle",
+  "comment" : ""
+}, {
+  "message" : "Right pane",
+  "comment" : ""
+}, {
+  "message" : "Top pane",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[
+    {
+        "initialValue": null,
+        "name": "menu",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2023-11-14 07:16:25</sys_created_on>
+        <sys_id>f52479f8352e3910f877e159f0acd9d9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f52479f8352e3910f877e159f0acd9d9</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2023-11-14 07:47:58</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=f52479f8352e3910f877e159f0acd9d9"/>
+</record_update>
