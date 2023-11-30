@@ -3,8 +3,8 @@
         <element label="Brand" mandatory="true" max_length="20" name="brand" type="string"/>
         <element choice="3" default="Petrol" label="Fuel Type" max_length="40" name="fuel_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Diesel" value="2"/>
-                <element inactive_on_update="false" label="EV" value="3"/>
+                <element inactive_on_update="false" label="Diesel" value="Diesel"/>
+                <element inactive_on_update="false" label="EV" value="EV"/>
             </choice>
         </element>
         <element display="true" label="Model" mandatory="true" max_length="30" name="model" type="string"/>

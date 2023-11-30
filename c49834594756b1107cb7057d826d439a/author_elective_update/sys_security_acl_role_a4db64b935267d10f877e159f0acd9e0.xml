@@ -41,7 +41,7 @@
         <update_guid_history>35eb68b92e267d10d0224635d4729b22:-538634611</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="now.now-mech-workspace.*.x_1142001_now_mech.servicecentre_admin">368ca8f935267d10f877e159f0acd915</sys_audit_delete>
+        <sys_audit_delete display_value="">368ca8f935267d10f877e159f0acd915</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-11-17 04:37:29</sys_created_on>

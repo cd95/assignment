@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_1142001_now_mech_service_centre" element="NULL" name="x_1142001_now_mech_service_centre" parent="NULL" relationship="NULL" sys_domain="global" view="14dfb160901231106565c68456376f25">45722c926056f510f877650ee77445cc</list_id>
+            <list_id display_value="x_1142001_now_mech_service_centre" element="NULL" name="x_1142001_now_mech_service_centre" parent="NULL" relationship="NULL" sys_domain="global" view="773fb3702832311065659402a4fd9f26">45722c926056f510f877650ee77445cc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>owner</element>
-            <list_id display_value="x_1142001_now_mech_service_centre" element="NULL" name="x_1142001_now_mech_service_centre" parent="NULL" relationship="NULL" sys_domain="global" view="14dfb160901231106565c68456376f25">45722c926056f510f877650ee77445cc</list_id>
+            <list_id display_value="x_1142001_now_mech_service_centre" element="NULL" name="x_1142001_now_mech_service_centre" parent="NULL" relationship="NULL" sys_domain="global" view="773fb3702832311065659402a4fd9f26">45722c926056f510f877650ee77445cc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -55,7 +55,7 @@
             <sys_updated_by>maint</sys_updated_by>
             <sys_updated_on>2023-11-06 06:54:39</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">14dfb160901231106565c68456376f25</view>
+            <view display_value="Reference List" name="sys_ref_list">773fb3702832311065659402a4fd9f26</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

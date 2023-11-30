@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="199848de6092f510f877650ee77445a5" label="User" max_length="40" name="x_1142001_now_mech_user" type="collection">
-        <element display="true" label="Is Manager" max_length="40" name="is_owner" type="boolean"/>
+        <element label="Is Manager" max_length="40" name="is_owner" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Service Centre" mandatory="true" max_length="32" name="service_centre" reference="x_1142001_now_mech_service_centre" type="reference"/>
         <element label="Team" mandatory="true" max_length="32" name="team" reference="x_1142001_now_mech_team" reference_qual="javascript:&quot;service_centre=&quot; + current.service_centre" type="reference" use_reference_qualifier="advanced"/>
-        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="service_centre"/>
         </index>

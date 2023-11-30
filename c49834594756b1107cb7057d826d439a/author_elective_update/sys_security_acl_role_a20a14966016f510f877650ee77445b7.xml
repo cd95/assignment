@@ -41,7 +41,7 @@
         <update_guid_history>a20a14965716f510a3b94361aa63a6b9:-59158103</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1142001_now_mech_service_request.x_1142001_now_mech.service_request_user">4b35e4d66056f510f877650ee77445ec</sys_audit_delete>
+        <sys_audit_delete display_value="">4b35e4d66056f510f877650ee77445ec</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-11-06 07:06:49</sys_created_on>

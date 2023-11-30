@@ -66,7 +66,7 @@
         <update_guid_history>33872c9a6156f510858d87c191f4adb9:-580336889</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Requests">5a99ac5e6056f510f877650ee77445c5</sys_audit_delete>
+        <sys_audit_delete display_value="">5a99ac5e6056f510f877650ee77445c5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>maint</sys_created_by>
         <sys_created_on>2023-11-06 07:25:53</sys_created_on>

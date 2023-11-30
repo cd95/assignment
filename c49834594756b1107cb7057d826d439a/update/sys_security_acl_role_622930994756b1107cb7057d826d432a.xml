@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-11-03 05:59:57</sys_updated_on>
         <sys_user_role display_value="x_1142001_now_mech.vehicle_user" name="x_1142001_now_mech.vehicle_user">9629fc594756b1107cb7057d826d43df</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>
