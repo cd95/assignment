@@ -17,7 +17,7 @@
         // do someting
         var Taskgr = new GlideRecord('x_1142001_now_mech_service_task')
         Taskgr.addQuery('sys_id', RequestTasksgliderecord.getValue('service_task'));
-        Taskgr.addQuery('state', 'IN', ['3']);
+        // Taskgr.addQuery('state', 'IN', ['3']);
         Taskgr.query();
         if (Taskgr.next()) {
             gs.info("price of " + RequestTasksgliderecord.getValue('service_task') + " is " + Taskgr.getValue('service_charge'));
@@ -64,7 +64,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af7e442435a2f510f877e159f0acd933</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Task Completion</sys_name>
         <sys_overrides/>
         <sys_package display_value="Now Mechanic" source="x_1142001_now_mech">c49834594756b1107cb7057d826d439a</sys_package>
@@ -72,6 +72,6 @@
         <sys_scope display_value="Now Mechanic">c49834594756b1107cb7057d826d439a</sys_scope>
         <sys_update_name>sysevent_script_action_af7e442435a2f510f877e159f0acd933</sys_update_name>
         <sys_updated_by>maint</sys_updated_by>
-        <sys_updated_on>2023-11-14 02:07:37</sys_updated_on>
+        <sys_updated_on>2023-11-30 06:21:13</sys_updated_on>
     </sysevent_script_action>
 </record_update>
